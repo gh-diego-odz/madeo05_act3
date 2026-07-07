@@ -1,0 +1,8 @@
+# Packer variables
+*.pkrvars.hcl
+
+# Packer cache
+packer_cache/
+
+# Crash log files
+crash.log
