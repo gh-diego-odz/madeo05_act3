@@ -1,0 +1,19 @@
+region                = "mx-central-1"
+
+availability_zone_a   = "mx-central-1a"
+availability_zone_b   = "mx-central-1b"
+
+vpc_cidr              = "10.0.0.0/16"
+public_subnet_a_cidr  = "10.0.1.0/24"
+public_subnet_b_cidr  = "10.0.2.0/24"
+private_subnet_cidr   = "10.0.3.0/24"
+
+frontend_private_ip   = "10.0.3.10"
+backend_private_ip    = "10.0.3.20"
+database_private_ip   = "10.0.3.30"
+
+mongo_user            = "backend_user"
+mongo_password        = "B4CK3ND_user-2026"
+mongo_db              = "act3_db"
+
+
